@@ -6,8 +6,15 @@
     <link href="css/sena.css" rel="stylesheet">
 <!--	<script src="js/sku.js"></script>-->
 </head>
-<body>
+<body class="a">
 <!--    <embed src="res/bg.mp3" autostart="true" loop="true" hidden="true">-->
+
+<script>
+    let body = document.body;
+    setInterval(() => {
+        body.className.includes("a") ? body.className = "b" : body.className = "a";
+    }, 1000 * 10)
+</script>
 </body>
 </html>
 

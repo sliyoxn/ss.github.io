@@ -10,7 +10,13 @@ html,body
     height: 100%;
 }
 
-body
+body.a
 {
     background-image: url('../img/1.jpg')
 }
+
+body.b {
+    background-image: url("../img/2.jpg");
+}
+
+
